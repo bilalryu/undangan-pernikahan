@@ -1,0 +1,99 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background: #f8f3eb;
+    color: #59483d;
+    text-align: center;
+}
+
+.cover {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.35),
+            rgba(0, 0, 0, 0.45)
+        ),
+        url("../images/cover.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+    text-align: center;
+}
+
+
+.cover-content {
+    padding: 20px;
+}
+
+.subtitle {
+    letter-spacing: 4px;
+    font-size: 14px;
+}
+
+.cover-content h1 {
+    font-size: 55px;
+    margin: 25px 0;
+    font-style: italic;
+}
+
+.tanggal {
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.kepada {
+    font-size: 14px;
+}
+
+.cover button {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+
+    background: #b99a75;
+    color: white;
+
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.cover button:hover {
+    background: #947452;
+}
+
+.section {
+    padding: 80px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.section h2 {
+    margin-bottom: 25px;
+    color: #947452;
+}
+
+.section h3 {
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+
+    .cover-content h1 {
+        font-size: 38px;
+    }
+
+}
